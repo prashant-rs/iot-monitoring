@@ -24,6 +24,9 @@ Native fetch API (HTTP requests)
 
 npm install                                                                
 # Edit .env with your MySQL credentials                                                           
-npm run init-db (Run the database migration script:)                                            
+npm run init-db (Run the database migration script:) OR Database file is available inside Script folder 
+path: backend/scripts/initDatabase.js (run this file using command = node initDatabase.js)                    
+
+
 npm run dev
 
