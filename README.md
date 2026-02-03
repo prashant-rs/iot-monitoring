@@ -42,7 +42,26 @@ Native fetch API (HTTP requests)
 
 
 npm install                                                                
-# Edit .env with your MySQL credentials                                                           
+# Edit .env with your MySQL credentials   
+
+My .env file
+
+# Database Configuration
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=Prashant@1234
+DB_NAME=iot_monitoring
+DB_PORT=3306
+
+# Server Configuration
+PORT=3000
+
+# Simulation Configuration
+SIMULATION_INTERVAL=60000
+
+
+
+
 npm run init-db (Run the database migration script:) OR Database file is available inside Script folder 
 path: backend/scripts/initDatabase.js (run this file using command = node initDatabase.js)                    
 
