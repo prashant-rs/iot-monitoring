@@ -5,7 +5,6 @@ MySQL (v8.0 or higher)
 npm (comes with Node.js)
 
 Verify installation: npm --version
-Git 
 
 System Requirements
 
